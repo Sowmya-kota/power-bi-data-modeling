@@ -97,7 +97,7 @@ The final semantic model follows a **Star Schema architecture**, with fact table
 
 ### Data Model Preview
 
-![Final Data Model](Screenshots/data_model.png)
+![Data Model](Screenshots/data_model.png)
 
 ### Modeling Standards
 
