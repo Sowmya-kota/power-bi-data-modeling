@@ -76,38 +76,33 @@ The project followed a structured four-phase modeling process:
 
 Source Data
 
-&#x20;   ↓
+     ↓
 
-Prepare \& Explore
+Prepare & Explore
 
-&#x20;   ↓
+     ↓
 
 Build Dimensions
 
-&#x20;   ↓
+     ↓
 
 Build Facts
 
-&#x20;   ↓
+     ↓
 
 Star Schema
 
-&#x20;   ↓
+     ↓
 
 Polish \& Validate
 
-&#x20;   ↓
+     ↓
 
 Analytics-Ready Semantic Model
 
-&#x20;   ↓
+     ↓
 
 Power BI Reporting
-
-
-
-
-
 
 
 \# 🔍 Key Modeling Work
@@ -121,10 +116,7 @@ The data modeling process was structured into four key phases: \*\*Prepare \& Ex
 \---
 
 
-
 \## 1. 🔎 Prepare \& Explore
-
-
 
 \* Explored the existing source data model
 
@@ -137,14 +129,10 @@ The data modeling process was structured into four key phases: \*\*Prepare \& Ex
 \* Identified structural and data quality issues
 
 
-
 \---
 
 
-
 \## 2. 🧩 Build Dimensions
-
-
 
 \* Consolidated related source tables
 
@@ -157,14 +145,10 @@ The data modeling process was structured into four key phases: \*\*Prepare \& Ex
 \* Removed unnecessary columns
 
 
-
 \---
 
 
-
 \## 3. 📊 Build Facts
-
-
 
 \* Identified key business events
 
@@ -177,14 +161,10 @@ The data modeling process was structured into four key phases: \*\*Prepare \& Ex
 \* Connected fact tables to the appropriate dimensions
 
 
-
 \---
 
 
-
 \## 4. ✅ Polish \& Validate
-
-
 
 \* Reviewed table and column naming
 
@@ -197,36 +177,30 @@ The data modeling process was structured into four key phases: \*\*Prepare \& Ex
 \* Reviewed and finalized the overall model structure
 
 
-
 \---
-
 
 
 \# ⭐ Star Schema
 
-
-
 The final semantic model follows a \*\*Star Schema architecture\*\*, with fact tables connected to reusable descriptive dimensions.
-
-
 
 ```text
 
-&#x20;                   dim\_customer
+                dim_customer
 
-&#x20;                        │
+                      │
 
-&#x20;                        │
+                       │
 
-dim\_product ─────── fact\_sales ─────── dim\_date
+dim_product ─────── fact_sales ─────── dim_date
 
-&#x20;                        │
+                     │
 
-&#x20;                        │
+                      │
 
-&#x20;                    dim\_store
+                  dim\_store
 
-&#x20;                        │
+                     │
 
 &#x20;                        │
 
