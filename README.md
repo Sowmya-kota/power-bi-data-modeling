@@ -20,7 +20,19 @@ The primary focus is on building a reliable data model that supports accurate an
 
 \---
 
+## 📸 Project Preview
 
+### Executive Summary
+
+![Executive Summary](Screenshots/executive_summary.png)
+
+### Sales Performance
+
+![Sales Performance](Screenshots/sales_performance.png)
+
+### Fulfillment Performance
+
+![Fulfillment Performance](Screenshots/fulfillment_performance.png)
 
 \## 🎯 Project Objectives
 
