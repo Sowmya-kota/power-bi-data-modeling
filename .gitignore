@@ -1,0 +1,13 @@
+# Course materials and source files
+powerbi-ultimate-course/
+__MACOSX/
+
+# Original / duplicate Power BI files
+Data Modelling Project.pbix
+Final Data Model - Ft-Sowmya Kota/
+
+# Temporary and system files
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
