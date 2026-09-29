@@ -190,7 +190,7 @@ power-bi-data-modeling/
 ├── Documentation/
 │
 └── Screenshots/
-    ├── final_data_model.png
+    ├── data_model.png
     ├── executive_summary.png
     ├── sales_performance.png
     └── fulfillment_performance.png
