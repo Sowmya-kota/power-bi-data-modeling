@@ -144,8 +144,7 @@ The semantic model provides the foundation for analytical reporting across:
 - 👥 Customers
 - 📦 Products
 - 🌍 Geography
-- 🏪 Stores
-- 👤 Salespeople
+- 📣 Campaigns & Promotions
 - 📅 Time
 - ⚙️ Operations
 
